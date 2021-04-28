@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  box-sizing: border-box;
+}
+
+nav{
+    
+    text-align: top;
+    padding: 30px, 50px, 0 , 0;
+    
+}
+
+nav > a {
+	
+	 color:#593f70;
+	 font-weight: 300;
+	 text-decoration: none;
+	 margin-right: 10px;
+	
+}
+
+nav > a:hover {
+
+	 text-decoration: underline;
+
+}
+
+label[for="abrir-cerrar"] {
+     top: 0.1%;
+     position: absolute;
+
+}
+body{
+  font-family: 'jura';
+  color: #353535;
+  background-color: #f3ebf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+/*
+.PotentCo{
+  font-family: 'Bodoni';
+  color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.titulos{
+     text-align:center;
+}
+
+/*Info con animacion*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    margin-left: -5%;
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos{
+    margin-left: -2%;
+    width: 40%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.Politicas h3 {
+    margin-bottom: 15px;
+}
+
+.Politicas h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.Estrategias h3 {
+    margin-bottom: 15px;
+}
+
+.Estrategias h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.Valores h3 {
+    margin-bottom: 15px;
+}
+
+.Valores h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+/*Texto normal*/
+
+.text{
+  margin-left: 3em;
+  margin-right: 3em;
+  
+}
+
+.titulos h1 {
+  font-family: 'jura';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 68px;
+      
+} 
+/*
+h3, caption{
+    text-align: justify ;
+    font-family: 'Bahnschrift';
+    font-size: 26px;
+}
+h4,td,th{
+    font-family: 'trebuchet MS';
+    text-align: justify ;
+    font-size: 16px;
+    padding: 0;
+}
+*/
+h2{
+    font-family: 'jura';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+}
+
+/*Diseño de listas y animación */
+
+#lista {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 15px 'jura';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista ol {
+    margin: 0 0 0 2em; 
+}
+
+#lista li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+#lista li:hover{
+    background: #eee;
+}
+
+#lista li:hover:before{
+    transform: rotate(360deg);  
+}
+
+#lista li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+/*Diseño de tablas*/
+
+.NumEmerg h4{
+  font-family: 'jura';
+  font-size: 28px;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+
+.tablas{
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.imagen-alumnos{
+    width: 45%;
+    margin-left: 4%;
+    margin-right: 5%;
+}
+
+#tipo,#numero {
+    text-align: center;
+    font-family: 'jura';
+    font-size: 25px;
+    background-color: #deeefe;
+}
+
+table {
+
+  margin-left: 1%;
+  background-color: #f1ecf2;
+  width: 40%;
+  border-collapse: collapse;
+  border: 3px #e7d8ed;
+}
+
+
+table tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+table tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+td,th{
+    b
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid transparent;
+}
+
+/*rutas*/
+#show,#hide {
+	display:none;
+}
+
+div#content {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show:checked ~ div#content {
+	display:block;
+}
+
+input#hide:checked ~ div#content {
+	display:none;
+}
+
+
+/*asaltos*/
+#show2,#hide2 {
+	display:none;
+}
+
+div#content2 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show2:checked ~ div#content2 {
+	display:block;
+}
+
+input#hide2:checked ~ div#content2 {
+	display:none;
+}
+
+/*secuestro*/
+#show3,#hide3 {
+	display:none;
+}
+
+div#content3 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show3:checked ~ div#content3  {
+	display:block;
+}
+
+input#hide3:checked ~ div#content3 {
+	display:none;
+}
+
+/*acoso*/
+#show4,#hide4 {
+	display:none;
+}
+
+div#content4 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show4:checked ~ div#content4  {
+	display:block;
+}
+
+input#hide4:checked ~ div#content4 {
+	display:none;
+}
+
+/*agresion fisica*/
+#show5,#hide5 {
+	display:none;
+}
+
+div#content5 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show5:checked ~ div#content5  {
+	display:block;
+}
+
+input#hide5:checked ~ div#content5 {
+	display:none;
+}
+
+/*agresion verbal*/
+#show6,#hide6 {
+	display:none;
+}
+
+div#content6 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show6:checked ~ div#content6  {
+	display:block;
+}
+
+input#hide6:checked ~ div#content6 {
+	display:none;
+}
+
+/*accidente automovilistico*/
+#show7,#hide7 {
+	display:none;
+}
+
+div#content7 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show7:checked ~ div#content7  {
+	display:block;
+}
+
+input#hide7:checked ~ div#content7 {
+	display:none;
+}
+
+/*sustancias nocivas*/
+#show8,#hide8 {
+	display:none;
+}
+
+div#content8 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show8:checked ~ div#content8  {
+	display:block;
+}
+
+input#hide8:checked ~ div#content8 {
+	display:none;
+}
+
+/*denuncias*/
+#show9,#hide9 {
+	display:none;
+}
+
+div#content9 {
+	display:none;
+   
+  background-color:#f3ebf5;
+   
+  cursor:pointer;
+}
+
+input#show9:checked ~ div#content9  {
+	display:block;
+}
+
+input#hide9:checked ~ div#content9 {
+	display:none;
+}
+
+
+.button {
+  position: relative;
+  padding:0.5em 0.5em;
+  border: none;
+  font-family: 'Elephant';
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  margin: 1em 0.8em;
+}
+.button.type3 {
+  color: #435a6b;
+}
+.button.type3.type3::after, .button.type3.type3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border: 2px solid;
+  transition: all 0.6s ease;
+  border-radius: 2px;
+}
+.button.type3.type3::after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #435a6b;
+  border-right-color: #435a6b;
+}
+.button.type3.type3::before {
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #435a6b;
+  border-left-color: #435a6b;
+}
+.button.type3.type3:hover:after, .button.type3.type3:hover:before {
+  border-bottom-color: #435a6b;
+  border-right-color: #435a6b;
+  border-top-color: #435a6b;
+  border-left-color: #435a6b;
+  width: 100%;
+  height: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
